@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NautaGotchi: Space Dodge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>NautaGotchi: Space Dodge</h1>
+    <div id="info-board">
+        <p>Score: <span id="score">0</span></p>
+        <p>High Score: <span id="high-score">0</span></p>
+    </div>
+    <div id="game-container">
+        <canvas id="game-canvas" width="480" height="640"></canvas>
+        <div id="game-over-modal">
+            <h2>You Lost!</h2>
+            <p id="new-high-score-text">NEW HIGH SCORE!</p>
+            <p>Your Score: <span id="final-score">0</span></p>
+            <p>Highest Score: <span id="highest-score">0</span></p>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
